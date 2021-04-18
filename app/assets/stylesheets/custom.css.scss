@@ -1,0 +1,73 @@
+// @import 'bootstrap/dist/css/bootstrap';
+
+.bg-dark{
+  background-color: #091221  !important;
+  height: 90px;
+}
+.navbar-brand{
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 28px;
+}
+.navbar-dark .navbar-nav .nav-link{
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.navbar-dark .navbar-nav .nav-item{
+  margin: 0 20px;
+
+}
+.image_tag{
+  height: 600px;
+  width: inherit;
+}
+
+.intro{
+  padding:  50px 0;
+  text-align: center;
+}
+.intro h1{
+  font-size: 45px;
+  margin-bottom: 55px;
+  color: #062863;
+}
+.intro p{
+  font-size: 20px;
+}
+.card h3{
+  color: #0b2248;
+  text-align: center;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  font-family: system-ui;
+  font-weight: 700;}
+  
+.card{
+  margin-bottom: 100px;
+}
+
+body {
+  background-image: url("image4.jpeg");
+  background-color: #cccccc;
+  background-size: cover;
+  // background-position: center;
+  background-repeat: no-repeat;
+  height: 0vh;
+ }
+
+ .page-content{
+   h1{
+    font-size: 4.75rem;
+   }
+   h3{
+     font-size: 2.25rem;
+   }
+  text-align: center;
+  color: white;
+  top: 40%;
+  transform: translate(0, 190%);
+  // border: 5px solid #ff0000;
+  padding: 10px;
+  font-family: system-ui;
+ }
